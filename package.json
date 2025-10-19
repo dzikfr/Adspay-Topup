@@ -12,6 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.8",
     "@types/he": "^1.2.3",
+    "@vercel/node": "^5.4.0",
     "axios": "^1.7.9",
     "chart.js": "^4.5.0",
     "he": "^1.2.0",
