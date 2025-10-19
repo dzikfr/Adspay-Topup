@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+  @apply font-sans bg-slate-50 text-slate-800;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+}
+
+.gradient {
+  background: linear-gradient(160deg, #1b73f5 0%, #5aaaff 50%, #93caff 100%);
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white px-4 py-2 rounded-xl font-medium hover:bg-blue-700;
+}
+
+.btn-outline {
+  @apply border border-slate-300 text-slate-700 rounded-xl px-4 py-2 font-medium hover:bg-white/50;
+}
